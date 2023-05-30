@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img { display: block; }
+
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+
+
+body {
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  background-color: aliceblue;
+ 
+  background-color: #000;
+}
+
+
+
+.h2 {
+ color: greenyellow;
+ text-align: center;
+ font-size:larger
+
+}
+
+.h1 {
+  font-size: 500%;
+  color: aliceblue;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.profile-pic-figure {
+  width: 35%;
+}
+
+.profile-pic-figure img {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double gray;
+  border-radius: 50%;
+}
+
+
+
+
+
+.text{
+  color: aqua;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+
+}
+
+.about{
+  color: blue;
+  font-style: oblique;
+  text-align: center;
+}
+
+.contact{
+  color: bisque;
+  text-align: left;
+}
+
+.id{
+  color: bisque;
+  text-align:center;
+  font-size: larger;
+}
